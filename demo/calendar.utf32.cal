@@ -1,0 +1,7 @@
+event 2023-10-30 14:50:00 90 "Meeting 1"
+event 2023-10-31 08:30:45 45 "Meeting 2"
+event 2023-12-25 all-day "Christmas Day"
+plugin edu.curtin.calplugins.Repeat { title: "Tuition Repeat", startDate: "2023-11-01", startTime: "17:20:00", duration: "10", repeat: "7" }
+plugin edu.curtin.calplugins.Repeat { title: "Holiday Repeat", startDate: "2023-11-03", repeat: "7" }
+plugin edu.curtin.calplugins.Notify { text: "Meeting 1" }
+plugin edu.curtin.calplugins.Notify { text: "Meeting 2" }
